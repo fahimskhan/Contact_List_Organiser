@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  background-color: #B0B0B0;
+  font-size: large;
+  padding: 15px;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.NewContact {
+  /* text-align: center; */
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.Contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.TopHeaders {
+  /* display: flex;
+  justify-content: space-around; */
+}
+
+.ContactItems {
+  border: solid 1px #D0D0D0;
+
+}
+.InputFields {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Input {
+  border-radius: 5px;
+  height: 25px;
+  width: 200px;
+}
+
+.Button {
+  /* padding: 10px; */
+  /* width: 100px; */
+  margin: 30px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
