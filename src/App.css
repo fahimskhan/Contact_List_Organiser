@@ -2,20 +2,58 @@
   text-align: center;
 }
 
-.App-logo {
-  /* animation: App-logo-spin infinite 20s linear; */
-  height: 80px;
+.App-logo-1 {
+  animation: App-logo-spin infinite 4s;
+  height: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.App-logo-2 {
+  animation: App-logo-spin infinite 8s;
+  height: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.App-logo-3 {
+  animation: App-logo-spin infinite 6s;
+  height: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.App-logo-4 {
+  animation: App-logo-spin infinite 7s;
+  height: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.App-logo-5 {
+  animation: App-logo-spin infinite 9s;
+  height: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.App-logo-6 {
+  animation: App-logo-spin infinite 5s;
+  height: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 200px;
   padding: 20px;
   color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 2em;
+  color: #D3D3D3;
 }
 
 .App-intro {
@@ -54,6 +92,7 @@
 .InputFields {
   display: flex;
   justify-content: space-around;
+  padding-top: 10px;
 }
 
 .Input {
